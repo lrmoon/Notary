@@ -779,12 +779,15 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #banner {
-    background-size: cover;
+    
+    background-size:cover;
+    
 }
 
 #banner-content.row {
     padding-top: 170px;
     padding-bottom: 100px;
+    
 }
 
 #banner h1 {
@@ -797,6 +800,7 @@ h6 {
     width: 30px;
     height: 5px;
     margin-top: 30px;
+   
 }
 
 
