@@ -2334,12 +2334,18 @@ blockquote {
          
 }
 
-#divider{
+hr#divider{
     border-style: none !important;
     box-sizing:none !important;
     background-color: blue !important;
     border-width:100% !important;
     display: none !important;
 }
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
 
 
