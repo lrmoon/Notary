@@ -1,1 +1,1 @@
-web: gunicorn notaryservicepip.wsgi
+web: gunicorn notaryservice.wsgi
