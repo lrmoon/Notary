@@ -979,7 +979,7 @@ blockquote {
 /* --------- 6.4 Gallery ---------- */
 
 #gallery img {
-    max-height: 300px;
+    max-height: 300px !important;
 }
 
 #gallery [class*='col-'] {
@@ -2346,6 +2346,9 @@ ul.no-bullets {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
-  }
+}
+
+
+
 
 
