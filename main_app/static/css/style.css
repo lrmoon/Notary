@@ -712,6 +712,9 @@ a img {
 a img:hover {
     opacity: 0.7;
 }
+#smallpen{
+    margin-top:130px !important;
+}
 
 /*------------------------------------------------------------------------------------------*/
 /* 3. Fonts */
@@ -2347,6 +2350,8 @@ ul.no-bullets {
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
 }
+
+
 
 
 
