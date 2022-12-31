@@ -127,3 +127,8 @@ STATIC_URL ='/static/'
 STATICFILES_DIRS =( os.path.join('static'),)
 django_heroku.settings(locals())
 DEBUG_PROPAGATE_EXCEPTIONS = True
+
+if os.getcwd() == '/app':
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FOWARDED_PROTO', 'https')
+    SECURE_SSL_REDIRECT = True
+    DEBUG = False
