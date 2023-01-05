@@ -997,7 +997,8 @@ blockquote {
 
 #gallery a:hover img {
     opacity: 0.15;
-    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 #gallery a:before {

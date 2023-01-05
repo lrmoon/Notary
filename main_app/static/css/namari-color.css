@@ -124,7 +124,9 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/hand.png") no-repeat right 400px top;
+    background-image: url("../images/banner-images/banner-image-1.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
     
     background-size:cover;
 }
