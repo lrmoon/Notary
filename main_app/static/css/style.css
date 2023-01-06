@@ -712,9 +712,6 @@ a img {
 a img:hover {
     opacity: 0.7;
 }
-#smallpen{
-    margin-top:130px !important;
-}
 
 /*------------------------------------------------------------------------------------------*/
 /* 3. Fonts */
@@ -782,15 +779,12 @@ h6 {
 /*------------------------------------------------------------------------------------------*/
 
 #banner {
-    
-    background-size:cover;
-    
+    background-size: cover;
 }
 
 #banner-content.row {
     padding-top: 170px;
     padding-bottom: 100px;
-    
 }
 
 #banner h1 {
@@ -803,7 +797,6 @@ h6 {
     width: 30px;
     height: 5px;
     margin-top: 30px;
-   
 }
 
 
@@ -982,7 +975,7 @@ blockquote {
 /* --------- 6.4 Gallery ---------- */
 
 #gallery img {
-    max-height: 300px !important;
+    max-height: 300px;
 }
 
 #gallery [class*='col-'] {
@@ -997,8 +990,7 @@ blockquote {
 
 #gallery a:hover img {
     opacity: 0.15;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
 }
 
 #gallery a:before {
@@ -2332,28 +2324,8 @@ blockquote {
     .slvj-lightbox iframe, .slvj-lightbox object, .slvj-lightbox embed {
         height: 432px !important;
     }
-    
-    
-    
-         
+
 }
-
-hr#divider{
-    border-style: none !important;
-    box-sizing:none !important;
-    background-color: blue !important;
-    border-width:100% !important;
-    display: none !important;
-}
-
-ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-}
-
-
-
 
 
 
