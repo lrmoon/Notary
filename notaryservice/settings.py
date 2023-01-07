@@ -124,7 +124,7 @@ USE_TZ = True
 import os.path
 STATIC_ROOT=''
 STATIC_URL ='/static/'
-STATICFILES_DIRS =( os.path.join('static'),)
+
 django_heroku.settings(locals())
 DEBUG_PROPAGATE_EXCEPTIONS = True
 #deploy

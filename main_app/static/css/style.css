@@ -40,6 +40,7 @@ body, div, dl, dt, dd, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote, th
     margin: 0;
     padding: 0;
     direction: ltr;
+    text-decoration: none;
 }
 
 body {
@@ -2326,7 +2327,8 @@ blockquote {
     }
 
 #doclist{
-    margin-left:100px ;
+    margin-left:100px;
+    padding-left: 500px !important;
 }
 ul {
     padding: 0;
@@ -2337,6 +2339,10 @@ ul {
   #hours{
     list-style: none;
   }
+  ul.no-bullets{
+    list-style:none;
+  }
+  
 
 }
 

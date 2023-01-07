@@ -14,8 +14,8 @@
 
     
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" title="Favicon"/>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <link rel="stylesheet" href="{% static 'css/namari-color.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/namari-color.css' %}">
 
     
     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
@@ -170,7 +170,7 @@
                         <div class="icon-block-description">
                             <h4>All forms MUST be Valid (unexpired) Official Government ID's</h4>
                             <p>
-                                <ul id="doclist">
+                                <ul style="margin-left:-25px;" id="doclist">
                                 <li/>State-issued Driver's License</li>
                                 <li>State-issued ID card</li>
                                 <li>United States Military ID</li>
@@ -254,9 +254,12 @@ data-featherlight-filter="a">
                         
                     </p>
                     <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
-                    <a href="#" data-videoid="PfRyg2AsKm4" data-videosite="youtube" class="button video link-lightbox">
-                        WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i>
-                    </a>
+                     
+                        
+                        <button id="button" onMouseOver="this.style.color='#d2b356'" onMouseOut="this.style.color='#111111'" style="padding: 0;border-width:3px;border-style:solid;border-color:#111;margin: 35px 0;padding:11px 16px; background: none;font-weight:bold;"> WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i></button>
+                        <div id="iframeHolder"></div>
+
+ 
                 </div>
                 <!--End Content Right Side-->
 
@@ -368,7 +371,7 @@ data-featherlight-filter="a">
                 <blockquote class="col-3 testimonial classic">
                     <h4><strong>Hours</strong></h4>
                     <p>
-                        <ul class="no-bullets">
+                        <ul style="list-style:none" class="no-bullets">
                         <li>Monday - Thursday 8:00AM - 2:00PM</li>
                         <br>
                         <li>Friday - 8:00AM - 3:00PM</li>
@@ -438,6 +441,16 @@ data-featherlight-filter="a">
 <script src="{% static 'js/images-loaded.min.js' %}"></script>
 <script src="{% static 'js/lightbox.min.js' %}"></script>
 <script src="{% static 'js/site.js' %}"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('#button').click(function(){ 
+        if(!$('#iframe').length) {
+            $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/embed/PfRyg2AsKm4" width="700" height="450"></iframe>');
+            }
+        });   
+    });
+</script>
 
 
 </body>
