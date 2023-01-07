@@ -256,8 +256,8 @@ data-featherlight-filter="a">
                     <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
                      
                         
-                        <button id="button" onMouseOver="this.style.color='#d2b356'" onMouseOut="this.style.color='#111111'" style="padding: 0;border-width:3px;border-style:solid;border-color:#111;margin: 35px 0;padding:11px 16px; background: none;font-weight:bold;"> WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i></button>
-                        <div id="iframeHolder"></div>
+                        {% comment %} <button id="button" onMouseOver="this.style.color='#d2b356'" onMouseOut="this.style.color='#111111'" style="padding: 0;border-width:3px;border-style:solid;border-color:#111;margin: 35px 0;padding:11px 16px; background: none;font-weight:bold;"> WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i></button>
+                        <div id="iframeHolder"></div> {% endcomment %}
 
  
                 </div>
@@ -265,7 +265,7 @@ data-featherlight-filter="a">
 
                 <div class="col-3">
                     <img data-enllax-ratio=".5" data-enllax-type="foreground" class="resize" src="{% static 'images/penNew.png' %}" alt="pen"/>
-                    <img id="smallpen" src="{% static 'images/man_writing.jpeg' %}" alt="Landing Page"/>
+                    
                 </div>
                 
 
@@ -441,16 +441,8 @@ data-featherlight-filter="a">
 <script src="{% static 'js/images-loaded.min.js' %}"></script>
 <script src="{% static 'js/lightbox.min.js' %}"></script>
 <script src="{% static 'js/site.js' %}"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-<script type="text/javascript">
-    $(function(){
-        $('#button').click(function(){ 
-        if(!$('#iframe').length) {
-            $('#iframeHolder').html('<iframe id="iframe" src="https://www.youtube.com/embed/PfRyg2AsKm4" width="700" height="450"></iframe>');
-            }
-        });   
-    });
-</script>
+
+
 
 
 </body>

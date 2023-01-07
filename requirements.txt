@@ -9,9 +9,7 @@ django-environ==0.8.1
 django-heroku==0.3.1
 django-markwhat==1.6.2
 django-on-heroku==1.1.2
-django-sass==1.1.0
 django-sass-processor==1.2
-django-scheduler==0.9.5
 environ==1.0
 filelock==3.0.12
 gunicorn==20.1.0
