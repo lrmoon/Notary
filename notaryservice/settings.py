@@ -29,7 +29,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.vivianrashidi.com','notaryservice.herokuapp.com', 'vivianrashidi.com']
+ALLOWED_HOSTS = ['*','www.vivianrashidi.com','notaryservice.herokuapp.com', 'vivianrashidi.com']
 
 
 # Application definition
