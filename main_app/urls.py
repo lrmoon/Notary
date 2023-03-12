@@ -1,7 +1,7 @@
 from django.urls import path
 from django.contrib.sitemaps.views import sitemap
 from .sitemap import StaticViewsSitemap
-from django.contrib.sites.models import Site
+
 
 
 from . import views
