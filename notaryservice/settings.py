@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.sitemaps',
     'django.contrib.staticfiles',
-    'main_app'
+    'robots',
+    'main_app',
+    'notaryservice',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +57,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    ##custom middleware
+    'notaryservice.middleware.xml_content_type_middleware.XmlContentTypeMiddleware',
 ]
 
 ROOT_URLCONF = 'notaryservice.urls'
@@ -146,4 +151,6 @@ if os.getcwd() == '/app':
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 SITE_ID = 2
+
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
