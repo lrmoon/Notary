@@ -9,4 +9,17 @@ class StaticViewsSitemap(sitemaps.Sitemap):
         return ['main_app:home']
     
     def location(self, item):
-        return self.request.build_absolute_uri(reverse(item))
+        return reverse(item)
+    
+    def get_urls(self, site=None, **kwargs):
+        urls = []
+        for item in self.paginator.page_range:
+            url = reverse('main_app:home')
+            urls.append(
+                {
+                    'location': url,
+                    'priority': self.priority,
+                    'changefreq': self.changefreq
+                }
+            )
+        return urls
