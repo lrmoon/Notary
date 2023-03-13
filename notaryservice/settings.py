@@ -151,6 +151,8 @@ if os.getcwd() == '/app':
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 SITE_ID = 2
-
+SECURE_SSL_REDIRECT = False
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
+ROBOTS_USE_SCHEME_IN_HOST = True
 

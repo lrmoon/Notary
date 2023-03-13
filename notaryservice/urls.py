@@ -6,6 +6,7 @@ from .sitemap import StaticViewsSitemap
 
 
 
+
 sitemaps = {
     'sitemap': StaticViewsSitemap,
 }
