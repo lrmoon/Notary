@@ -18,3 +18,8 @@ virtualenv==20.7.0
 virtualenvwrapper.django==0.4.1
 whitenoise==6.2.0
 Brotli==1.0.9
+asgiref==3.6.0
+dj-database-url==1.2.0
+psycopg2-binary==2.9.5
+sqlparse==0.4.3
+tzdata==2022.7
