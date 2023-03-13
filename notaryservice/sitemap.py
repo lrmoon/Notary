@@ -9,4 +9,4 @@ class StaticViewsSitemap(sitemaps.Sitemap):
         return ['main_app:home']
     
     def location(self, item):
-        return reverse(item)
+        return self.request.build_absolute_uri(reverse(item))
