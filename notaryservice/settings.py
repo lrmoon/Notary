@@ -145,5 +145,5 @@ if os.getcwd() == '/app':
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-SITE_ID = 1
+SITE_ID = 2
 
