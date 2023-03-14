@@ -1,6 +1,6 @@
-# Nivico Notary
+# Nivico Notary Services
 
-***Nivico Notary*** Designed and optimized a responsive, mobile-friendly website for Nivico Notary Services. The website effectively markets their business through a modern and professional design, sitemap integration, and performance optimization for faster load times and improved search engine visibility. 
+***Nivico Notary Services*** was designed and optimized for a responsive, mobile-friendly experience for Nivico Notary Services. This website effectively markets their business through a modern and professional design, sitemap integration, and performance optimization for faster load times and improved search engine visibility. 
 
 <br />
 
@@ -27,7 +27,7 @@ This app is a one-page website that can be easily navigated using the navbar. Th
 
 - Django
 
-- Heroku
+- Render
 
 - HTML and CSS
 
