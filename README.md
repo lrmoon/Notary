@@ -1,12 +1,12 @@
-# Nivico Notary
+# Nivico Notary Services
 
-***Nivico Notary*** A responsive, mobile-friendly, marketing website I created for a client that advertises her business: Nivico Notary Services.
+***Nivico Notary Services*** was designed and optimized for a responsive, mobile-friendly experience for my client. This website effectively markets their business through a modern and professional design, sitemap integration, and performance optimization for faster load times and improved search engine visibility. 
 
 <br />
 
 
-## Link (deployed on Heroku)
-[deployment link](https://vivianrashidi.com/)
+## Link (Deployed On Render)
+[Deployment Link](https://vivianrashidi.com/)
 
 
 <br />
@@ -14,9 +14,9 @@
 
 ## App Usage
 
-It is a onepage website that can be navigated through the navbar, which will direct you exactly to the section requested.
+This app is a one-page website that can be easily navigated using the navbar. The navbar provides quick access to different sections of the website, allowing users to easily find the information they need. With just a few clicks, users can navigate directly to the section they want to view, making it easy to browse and access content.
 
-## Sreenshots
+## Screenshots
 ![notary img](https://imgur.com/ArLk7Sy.png)
 
 
@@ -27,7 +27,7 @@ It is a onepage website that can be navigated through the navbar, which will dir
 
 - Django
 
-- Heroku
+- Render
 
 - HTML and CSS
 
