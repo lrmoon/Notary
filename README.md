@@ -1,6 +1,6 @@
 # Nivico Notary Services
 
-***Nivico Notary Services*** was designed and optimized for a responsive, mobile-friendly experience for Nivico Notary Services. This website effectively markets their business through a modern and professional design, sitemap integration, and performance optimization for faster load times and improved search engine visibility. 
+***Nivico Notary Services*** was designed and optimized for a responsive, mobile-friendly experience for my client. This website effectively markets their business through a modern and professional design, sitemap integration, and performance optimization for faster load times and improved search engine visibility. 
 
 <br />
 
