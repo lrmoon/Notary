@@ -4,7 +4,7 @@ from django.urls import reverse
 class StaticViewsSitemap(sitemaps.Sitemap):
     protocol = 'https'
     priority = 0.5
-    changefreq = "weekly"
+    changefreq = "daily"
 
     def items(self):
         return ['main_app:home']
